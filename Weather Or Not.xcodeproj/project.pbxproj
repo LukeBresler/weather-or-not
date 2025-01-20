@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF5E4D9C2D3E52D200F30F53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5E4D962D3E52D200F30F53 /* Preview Assets.xcassets */; };
+		CF5E4D9D2D3E52D200F30F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5E4D982D3E52D200F30F53 /* Assets.xcassets */; };
+		CF5E4D9E2D3E52D200F30F53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4D992D3E52D200F30F53 /* ContentView.swift */; };
+		CF5E4D9F2D3E52D200F30F53 /* Weather_Or_NotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4D9A2D3E52D200F30F53 /* Weather_Or_NotApp.swift */; };
+		CF5E4DB72D3E577D00F30F53 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4DB62D3E577900F30F53 /* WeatherView.swift */; };
+		CF5E4DB92D3E586A00F30F53 /* ForecastListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4DB82D3E586A00F30F53 /* ForecastListView.swift */; };
+		CF5E4DBB2D3E594300F30F53 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4DBA2D3E594300F30F53 /* CurrentWeatherView.swift */; };
+		CF5E4DBD2D3E5A2200F30F53 /* TemperatureRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4DBC2D3E5A2200F30F53 /* TemperatureRangeView.swift */; };
+		CF5E4DBF2D3E5ABD00F30F53 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4DBE2D3E5ABD00F30F53 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CF159DDC2D36B5E700767AE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +39,18 @@
 		CF159DCB2D36B5E500767AE4 /* Weather Or Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Or Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF159DDB2D36B5E700767AE4 /* Weather Or NotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather Or NotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF159DE52D36B5E700767AE4 /* Weather Or NotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather Or NotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5E4D962D3E52D200F30F53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF5E4D982D3E52D200F30F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5E4D992D3E52D200F30F53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF5E4D9A2D3E52D200F30F53 /* Weather_Or_NotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Or_NotApp.swift; sourceTree = "<group>"; };
+		CF5E4DB62D3E577900F30F53 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		CF5E4DB82D3E586A00F30F53 /* ForecastListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListView.swift; sourceTree = "<group>"; };
+		CF5E4DBA2D3E594300F30F53 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		CF5E4DBC2D3E5A2200F30F53 /* TemperatureRangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureRangeView.swift; sourceTree = "<group>"; };
+		CF5E4DBE2D3E5ABD00F30F53 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CF159DCD2D36B5E500767AE4 /* Weather Or Not */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Weather Or Not";
-			sourceTree = "<group>";
-		};
 		CF159DDE2D36B5E700767AE4 /* Weather Or NotTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Weather Or NotTests";
@@ -75,7 +91,7 @@
 		CF159DC22D36B5E500767AE4 = {
 			isa = PBXGroup;
 			children = (
-				CF159DCD2D36B5E500767AE4 /* Weather Or Not */,
+				CF5E4D9B2D3E52D200F30F53 /* Weather Or Not */,
 				CF159DDE2D36B5E700767AE4 /* Weather Or NotTests */,
 				CF159DE82D36B5E700767AE4 /* Weather Or NotUITests */,
 				CF159DCC2D36B5E500767AE4 /* Products */,
@@ -92,6 +108,62 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CF5E4D972D3E52D200F30F53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E4D962D3E52D200F30F53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF5E4D9B2D3E52D200F30F53 /* Weather Or Not */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E4D9A2D3E52D200F30F53 /* Weather_Or_NotApp.swift */,
+				CF5E4DA02D3E570200F30F53 /* Views */,
+				CF5E4DA12D3E570B00F30F53 /* ViewModels */,
+				CF5E4DA22D3E572100F30F53 /* Models */,
+				CF5E4DC02D3E5DE200F30F53 /* Utilities */,
+				CF5E4D982D3E52D200F30F53 /* Assets.xcassets */,
+				CF5E4D972D3E52D200F30F53 /* Preview Content */,
+			);
+			path = "Weather Or Not";
+			sourceTree = "<group>";
+		};
+		CF5E4DA02D3E570200F30F53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E4D992D3E52D200F30F53 /* ContentView.swift */,
+				CF5E4DB82D3E586A00F30F53 /* ForecastListView.swift */,
+				CF5E4DBA2D3E594300F30F53 /* CurrentWeatherView.swift */,
+				CF5E4DBC2D3E5A2200F30F53 /* TemperatureRangeView.swift */,
+				CF5E4DB62D3E577900F30F53 /* WeatherView.swift */,
+				CF5E4DBE2D3E5ABD00F30F53 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF5E4DA12D3E570B00F30F53 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF5E4DA22D3E572100F30F53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF5E4DC02D3E5DE200F30F53 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +178,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CF159DCD2D36B5E500767AE4 /* Weather Or Not */,
 			);
 			name = "Weather Or Not";
 			packageProductDependencies = (
@@ -212,6 +281,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5E4D9C2D3E52D200F30F53 /* Preview Assets.xcassets in Resources */,
+				CF5E4D9D2D3E52D200F30F53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5E4DB72D3E577D00F30F53 /* WeatherView.swift in Sources */,
+				CF5E4D9E2D3E52D200F30F53 /* ContentView.swift in Sources */,
+				CF5E4D9F2D3E52D200F30F53 /* Weather_Or_NotApp.swift in Sources */,
+				CF5E4DBD2D3E5A2200F30F53 /* TemperatureRangeView.swift in Sources */,
+				CF5E4DBB2D3E594300F30F53 /* CurrentWeatherView.swift in Sources */,
+				CF5E4DBF2D3E5ABD00F30F53 /* LoadingView.swift in Sources */,
+				CF5E4DB92D3E586A00F30F53 /* ForecastListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
