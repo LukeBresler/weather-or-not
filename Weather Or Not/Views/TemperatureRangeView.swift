@@ -7,33 +7,29 @@
 import SwiftUI
 
 struct TemperatureRangeView: View {
-   // let weather: WeatherData
+    let weather: WeatherData
     
     var body: some View {
         HStack {
             // Minimum Temperature
             VStack {
-                Text("14°")
+                Text("\(Int(weather.main.temp_min))°")
                     .font(.title2)
                 Text("min")
                     .font(.caption)
             }
-            
             Spacer()
-            
             // Current Temperature
             VStack {
-                Text("24°")
+                Text("\(Int(weather.main.temp))°")
                     .font(.title2)
                 Text("Current")
                     .font(.caption)
             }
-            
             Spacer()
-            
             // Maximum Temperature
             VStack {
-                Text("29°")
+                Text("\(Int(weather.main.temp_max))°")
                     .font(.title2)
                 Text("max")
                     .font(.caption)

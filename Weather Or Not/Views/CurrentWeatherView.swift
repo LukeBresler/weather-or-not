@@ -7,19 +7,20 @@
 import SwiftUI
 
 struct CurrentWeatherView: View {
+    let weather: WeatherData
     
     var body: some View {
         VStack(spacing: 20) {
-           Spacer()
-            Text("25°")
-                .font(.system(size: 86))
+            // Current Temperature
+            Text("\(Int(weather.main.temp))°")
+                .font(.system(size: 96))
                 .foregroundColor(.white)
-                .padding(.bottom, -10)
-             Text("Clear")
+            
+            // Weather Description
+            Text(weather.weather.first?.main.uppercased() ?? "")
                 .font(.title)
                 .foregroundColor(.white)
                 .fontWeight(.medium)
-            Spacer()
         }
     }
 }
