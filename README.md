@@ -1,5 +1,3 @@
-Here’s a solid and professional README.md template for your weather app GitHub repository, with emphasis on your recent refactor using SOLID principles. You can copy and edit it to suit your tone and exact project details:
-
 # WeatherApp
 
 A clean, modular weather app built for a tech assessment. Originally a basic MVP, it has since been refactored to align with **SOLID principles** for better scalability, testability, and maintainability.
@@ -28,7 +26,7 @@ The app was recently refactored with a strong emphasis on SOLID design principle
   Each class/component has one clearly defined responsibility.
   
 - **O**: Open/Closed Principle  
-  New features or behavior can be added with minimal changes to existing code.
+  New features or behaviour can be added with minimal changes to existing code.
   
 - **L**: Liskov Substitution Principle  
   Protocol-based design ensures interchangeable components.
